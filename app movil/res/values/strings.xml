@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AMCEA</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Strings Menu Inicio -->
+	<string name="institucion">Nombre de Institución</string>
+	<string name="appname">Nombre Aplicacion</string>
+	<string name="balumno">Alumnos</string>
+	<string name="bexalumno">Exalumnos</string>
+	<string name="bvisita">Visitas</string>
+	
+	<!-- Strings sección alumnos -->
+	<string name="solicitud_constancia">Solicitud\nConstancia</string>
+	<string name="copias">Copias\nSimples</string>
+	<string name="historial">Historial\nAcadémico</string>
+	<string name="adeudos">Adeudos</string>
+	<string name="horarios">Horarios</string>
+	<string name="solicitud_credencial">Solicitud\nde Credencial</string>
+	<string name="calendario_escolar">Calendario\nEscolar</string>
+	<string name="contacto">Contacto</string>
+	
+	<!-- Strings sección exalumnos -->
+	<string name="historialadudos">Adeudos de\nbiblioteca</string>
+	<string name="reticula">Retricula</string>
+	<string name="titulacion">Titulacion</string>
+	<string name="bolsa"> Bolsa de \nTrabajo </string>
+	<string name="avisos">Avisos</string>
+	<string name="vision">Vision</string>
+	<string name="mision">Mision</string>
+	<string name="oferta">Oferta\n Educativa</string>
+	<string name="cuotas">Cuotas</string>
+	<string name="avisosvisitas">Nuevos avisos</string>
+	<string name="bolsa_trabajo">Bolsa de Trabajo</string>
+	<string name="visitas">Visitas</string>
+	<string name="vision_etiqueta">Vision</string>
+	<string name="mision_etiqueta">Mision</string>
+	<string name="etiquta_cuotas">Cuotas</string>
+	<string name="oferta_etiqueta">Cuotas</string>
+	<string name="etiqueta_avisos">Nuevos Avisos</string>
+	<string name="etiqueta_bolsa">Bolsa de Trabajo</string>
+	
+	<string name="contacto_etiqueta">Contacto</string>
+	<string name="adeudo">Adeudo de Biblioteca</string>
+	<string name="reticula_etiqueta">Reticula</string>
+    <string name="horarios_etiqueta">Horarios</string>
+    <string name="copia_etiqueta">Copias</string>
+    
+  
+	
+	
+	
+</resources>
