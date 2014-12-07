@@ -25,7 +25,8 @@
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:text="@string/balumno" />
+        android:text="@string/balumno"
+        android:onClick="alumno" />
 
     <TextView
         android:id="@+id/textView1"
@@ -43,7 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/bexalumno" />
+        android:text="@string/bexalumno"
+        android:onClick="exalumno" />
 
     <Button
         android:id="@+id/button3"
@@ -52,6 +54,7 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:text="@string/bvisita" />
+        android:text="@string/bvisita"
+        android:onClick="visita" />
 
 </RelativeLayout>

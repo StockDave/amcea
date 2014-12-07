@@ -2,7 +2,9 @@ package mx.hackathon.amcea;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class Principal extends Activity {
 
@@ -11,12 +13,20 @@ public class Principal extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.principal);
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.principal, menu);
-		return true;
+	
+	public void alumno(View View){
+		Intent i = new Intent(this, Alumno.class);
+		startActivity(i);
+	}
+	
+	public void exalumno(View view){
+		Intent i = new Intent (this, Exalumno.class);
+		startActivity(i);
+	}
+	
+	public void visita(View view){
+		Intent i = new Intent(this, Visita.class);
+		startActivity(i);
 	}
 
 }
